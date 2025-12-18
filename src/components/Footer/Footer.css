@@ -1,0 +1,13 @@
+.footer-container {
+  text-align: center; /* Center horizontally */
+  height: 2rem;
+  width: 100vw;
+  background: var(--primary-1);
+}
+
+.footer-container::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}

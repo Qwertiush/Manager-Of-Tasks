@@ -1,0 +1,65 @@
+.todoelement-container {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.todoelement {
+  display: flex;
+  flex-direction: column;
+}
+
+.todoelement-header {
+  display: flex;
+  justify-content: space-between;
+  background: var(--primary-1);
+  min-width: 250px;
+  padding: 0.5rem 1rem;
+}
+
+.todoelement-header-title {
+  font-size: var(--font-M);
+  font-weight: 500;
+}
+
+.todoelement-header-title:hover {
+  background: var(--primary-2);
+  cursor: pointer;
+}
+
+.btn-delete {
+  margin: 0;
+  background: var(--warning-1);
+  z-index: 2;
+}
+
+.btn-delete {
+  margin: 0;
+  z-index: 2;
+}
+
+.btn-delete:hover {
+  margin: 0;
+  background: var(--warning-2);
+}
+
+.todoelement-body {
+  background: var(--background-2);
+  min-height: 100px;
+}
+
+h4 {
+  font-size: var(--font-S);
+  font-weight: 400;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 0rem;
+}
+h4:hover {
+  background: var(--background-3);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .todoelement-container {
+    margin-left: 0;
+  }
+}

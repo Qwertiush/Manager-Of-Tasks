@@ -1,0 +1,25 @@
+.navbar-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 2rem;
+
+  background: var(--primary-1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  width: 100%;
+  background: var(--primary-1);
+}
+
+.navbar button {
+  margin: 0;
+  font-size: var(--font-XS);
+  height: 2rem;
+  padding-right: 1rem;
+}

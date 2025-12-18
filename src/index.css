@@ -1,0 +1,66 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --primary-1: rgb(242, 135, 59);
+  --primary-2: rgb(246, 159, 98);
+
+  --background-1: #242424;
+  --background-2: #424242;
+  --background-3: #6c6b6b;
+
+  --warning-1: rgb(242, 59, 59);
+  --warning-2: rgb(245, 103, 103);
+
+  --font-XS: 16px;
+  --font-S: 18px;
+  --font-M: 20px;
+  --font-L: 22px;
+  --font-XL: 24px;
+  --font-XXL: 26px;
+  --font-XXXL: 28px;
+
+  --transition: all 0.3s linear;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 100vw;
+}
+
+button {
+  background: var(--primary-1);
+  border-style: none;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
+  font-size: var(--font-M);
+  font-weight: 500;
+  border-radius: 10%;
+}
+button:hover {
+  background: var(--primary-2);
+  cursor: pointer;
+}
+
+input {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  width: 75%;
+  font-size: var(--font-S);
+}
