@@ -1,52 +1,55 @@
-# Manager Of Tasks - A web application to manage Your tasks.
-
-⚠️ This is a showcase version of the project.
-Sensitive configuration was intentionally removed.
 # Manager Of Tasks
 
-A web application that allows users to manage their tasks.
+A web application that allows users to manage their tasks in a simple and intuitive way.
+
+This project is a **showcase version** – sensitive configuration has been removed.
+
+---
 
 ## 🚀 Features
 - User authentication (login / logout)
-- User see only owned tasks
-- Adding, editing(setting as done), and removing owned tasks
-- Application remembers logged-in user on device
+- Users can see only their own tasks
+- Adding, editing (mark as done), and removing tasks
+- Application remembers logged-in user on the device
+
+---
 
 ## 🛠️ Tech Stack
 - React.js
-- JavaeScript
+- JavaScript
 - REST API
 - Firebase Authentication
 - Firebase Firestore
 
-## 🏗️ Architecture Overview
-- Application uses Firebase Authentication for user management.
-- Firestore is used as the main database for application data.
-
-## 📸 Screenshots
-<img src="screenshots/1.png" width="600" />
-<img src="screenshots/2.png" width="600" />
 ---
 
-# How to run application 👋
+## 🏗️ Architecture Overview
+- Firebase Authentication is used for user authentication and session handling
+- Firestore is used as the main database for storing tasks
 
-## Get started
+---
 
-1. Install dependencies
+## 🧠 What I Implemented
+- Authentication flow using Firebase Authentication
+- CRUD operations on tasks using Firestore
+- State management with React hooks
+- Integration with REST-like Firebase APIs
+- Basic access control (users can access only their own data)
 
+---
+
+## 📸 Screenshots
+<img src="screenshots/1.png" width="500" />
+<img src="screenshots/2.png" width="500" />
+
+---
+
+## ⚙️ How to Run the Application
+
+1. Install dependencies:
    ```bash
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-   npm run dev 
-   ```
-   ```bash
-   npm start
-   ```
-
-# Link to the website
+## Live demo
 https://manageroftasks.netlify.app
 
