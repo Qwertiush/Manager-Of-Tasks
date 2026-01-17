@@ -50,6 +50,10 @@ This project is a **showcase version** – sensitive configuration has been remo
    ```bash
    npm install
    ```
+
+   ```bash
+   npm run dev
+   ```
 ## Live demo
 https://manageroftasks.netlify.app
 
