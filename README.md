@@ -50,7 +50,7 @@ This project is a **showcase version** – sensitive configuration has been remo
    ```bash
    npm install
    ```
-
+2. Run application
    ```bash
    npm run dev
    ```
