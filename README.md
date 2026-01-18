@@ -29,7 +29,7 @@ This project is a **showcase version** – sensitive configuration has been remo
 
 ---
 
-## 🧠 What I Implemented
+## 🧠 Technical Implementation
 - Authentication flow using Firebase Authentication
 - CRUD operations on tasks using Firestore
 - State management with React hooks
